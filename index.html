@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladybug - Head Counter</title>
+</head>
+
+<body>
+    <div
+        style="display: flex; flex-direction: column; width: 40%; height: 70vh; background-color: navajowhite; justify-content: center; align-items: center; margin: 4rem auto; border-radius: 5px;">
+
+
+
+        <h1>Number of People </h1>
+        <h2 id="count-el">0</h2>
+        <button style="padding: 1rem 3rem; font-size: 20px; border-radius: 40px; border: 1px solid orangered;"
+            id="increment-btn" onclick="increment ()"><a href="#" style="text-decoration: none;">INCREMENT</a></button>
+
+
+
+        <button
+            style="padding: 1rem 5rem; margin-top: 1rem; font-size: 20px; border-radius: 40px; border: 1px solid green;"
+            id="save-btn" onclick="save ()"><a href="#" style="text-decoration: none;">SAVE</a></button>
+        <p id="save-el">Previous entries: </p>
+
+        <p>click the INCREMENT button above to add headcount for each person</p>
+
+    </div>
+
+
+    <div>
+        <p id="welcome-el"></p>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
