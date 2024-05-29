@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.div1{
+    display: flex; 
+    flex-direction: column; 
+    width: 40%; 
+    height: 70vh; 
+    background-color: navajowhite; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 4rem auto; 
+    border-radius: 5px;
+}
+
+#increment-btn{
+    padding: 1rem 3rem; 
+    font-size: 20px; 
+    border-radius: 40px; 
+    border: 1px solid orangered;
+
+}
+
+
+#save-btn{
+    padding: 1rem 5rem; 
+    margin-top: 1rem; 
+    font-size: 20px; 
+    border-radius: 40px; 
+    border: 1px solid green;
+}
+
+
+.click{
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+/* small devices */
+@media (max-width: 480px) {
+
+    .div1{
+        width: 100%;
+        margin: 0 0;
+        /* background: red; */
+
+    }
+
+
+    #increment-btn{
+        padding: 1rem 2rem;
+        margin: 1rem 0; 
+        font-size: 20px; 
+        border-radius: 40px; 
+        border: 1px solid orangered;
+    
+    }
+
+
+    #save-btn{
+        padding: 1rem 4rem; 
+        margin: 1rem 0; 
+        font-size: 20px; 
+        border-radius: 40px; 
+        border: 1px solid green;
+    }
+    
+    .click{
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    
+}
